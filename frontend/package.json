@@ -1,0 +1,41 @@
+{
+  "name": "directlet-frontend",
+  "version": "1.0.0",
+  "description": "DirectLet Platform Frontend - React + Apollo GraphQL",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.x",
+    "@stripe/react-stripe-js": "^2.x",
+    "@stripe/stripe-js": "^2.x",
+    "axios": "^1.x",
+    "bootstrap": "^5.3.8",
+    "graphql": "^16.x",
+    "socket.io-client": "^4.7.2",
+    "leaflet": "^1.9.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-leaflet": "^4.x",
+    "react-router-dom": "^6.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
